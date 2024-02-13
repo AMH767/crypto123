@@ -30,7 +30,8 @@ const Currencies = ({name, image, currentPrice, marketCap, pickedCurrency, id}) 
       background: (id === pickedCurrency ? "rgb(0,141,255)" : "transparent"),
       borderRadius: 3,
       transition: "background .15s ease-in-out",
-      cursor: "pointer"
+      cursor: "pointer",
+      maxWidth: "750px"
     }}>
       <Box sx={{
         display: "flex"
